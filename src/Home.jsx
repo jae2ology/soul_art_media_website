@@ -24,6 +24,11 @@ export default function Home() {
                 <a href={'/books'} className="hover:scale-105 transition-transform">
                     <img src={"src/assets/books.png"} />
                 </a>
+
+                <a href={'/contact'} className="hover:scale-105 transition-transform">
+                    <img src={"src/assets/img_3.png"} />
+                </a>
+
             </div>
 
         </div>
