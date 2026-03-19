@@ -1,4 +1,14 @@
 import React from 'react';
+import u from './book_images/u.png';
+import book from './book_images/book.png';
+import cover from './book_images/cover.png';
+import quote from './book_images/quote.png';
+import img from './book_images/img.png'
+import img_1 from './book_images/img_1.png'
+import img_2 from './book_images/img_2.png'
+import img_3 from './book_images/img_3.png'
+import img_4 from './book_images/img_4.png'
+
 
 export default function Books() {
     return (
@@ -12,10 +22,10 @@ export default function Books() {
                 Anonymously: The Things I Couldn’t Say Out Loud is a collection of 44 poems born from the moments we were too afraid or too broken to speak. Rooted in faith and the journey of survival, these poems offer companionship to anyone carrying a heavy heart. Whether you are navigating grief, doubt, or the quiet ache of healing, this book reminds you that you are seen, you are not alone, and God is still writing your story.</p>
 
             <div className={"flex flex-wrap items-center gap-6 md:gap-12 mt-12"}>
-                <img src={"src/book_images/u.png"} className={"w-40 md:w-64 h-auto rounded-lg shadow-md"}/>
-                <img src={"src/book_images/book.png"} className={"w-40 md:w-64 h-auto rounded-lg shadow-md"}/>
-                <img src={"src/book_images/cover.png"} className={"w-40 md:w-64 h-auto rounded-lg shadow-md"}/>
-                <img src={"src/book_images/quote.png"} className={"w-40 md:w-64 h-auto rounded-lg shadow-md"}/>
+                <img src={u} className={"w-40 md:w-64 h-auto rounded-lg shadow-md"}/>
+                <img src={book} className={"w-40 md:w-64 h-auto rounded-lg shadow-md"}/>
+                <img src={cover} className={"w-40 md:w-64 h-auto rounded-lg shadow-md"}/>
+                <img src={quote} className={"w-40 md:w-64 h-auto rounded-lg shadow-md"}/>
             </div>
 
             <p className={"mt-10 inline-block text-white bg-[#cb7573] px-5 py-5 rounded-full shadow-md font-serif"}>
@@ -23,11 +33,11 @@ export default function Books() {
             </p>
 
             <div className={"flex flex-wrap justify-center gap-6 md:gap-12 mt-12"}>
-                <img src={"src/book_images/img.png"} className={"w-40 md:w-64 h-auto rounded-lg shadow-md"}/>
-                <img src={"src/book_images/img_1.png"} className={"w-40 md:w-64 h-auto rounded-lg shadow-md"}/>
-                <img src={"src/book_images/img_2.png"} className={"w-40 md:w-64 h-auto rounded-lg shadow-md"}/>
-                <img src={"src/book_images/img_3.png"} className={"w-40 md:w-64 h-auto rounded-lg shadow-md"}/>
-                <img src={"src/book_images/img_4.png"} className={"w-40 md:w-64 h-auto rounded-lg shadow-md"}/>
+                <img src={img} className={"w-40 md:w-64 h-auto rounded-lg shadow-md"}/>
+                <img src={img_1} className={"w-40 md:w-64 h-auto rounded-lg shadow-md"}/>
+                <img src={img_2} className={"w-40 md:w-64 h-auto rounded-lg shadow-md"}/>
+                <img src={img_3} className={"w-40 md:w-64 h-auto rounded-lg shadow-md"}/>
+                <img src={img_4} className={"w-40 md:w-64 h-auto rounded-lg shadow-md"}/>
             </div>
 
             <p className={"mt-10 inline-block text-white bg-[#cb7573] px-5 py-5 rounded-full shadow-md font-serif"}>
