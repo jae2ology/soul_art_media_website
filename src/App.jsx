@@ -34,8 +34,8 @@ export default function App(){
                     <Route path={'/contact'} element={<Contact />} />
                     <Route path={'/prints/home'} element={<Home_Living />} />
                     <Route path={'prints/malewear'} element={<Male_Wear />} />
-                    <Route path={'prints/femwear'} element={<Female_Wear />} />
-                    <Route path={'prints/accessories'} element={<Accessories />} />
+                    <Route path={'/prints/femwear'} element={<Female_Wear />} />
+                    <Route path={'/prints/accessories'} element={<Accessories />} />
                 </Routes>
             </Router>
             </div>
