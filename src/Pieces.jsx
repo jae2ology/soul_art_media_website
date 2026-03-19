@@ -1,4 +1,9 @@
 import React from 'react';
+import he from './paintings/he.png';
+import stream from './paintings/stream.png';
+import p1 from './paintings/p1.png';
+import p2 from './paintings/p2.png';
+import soundtrack from './paintings/soundtrack.png'
 
 export default function Pieces() {
     return (
@@ -12,25 +17,25 @@ export default function Pieces() {
             {/* FIRST & SECOND PIECES: Kept in a narrower container for that "stacked" look */}
             <div className="flex flex-col items-center mt-10 w-full max-w-2xl gap-16 mb-20">
                 <div className="flex flex-col items-center">
-                    <img src="src/paintings/he.png" className="w-full h-auto shadow-lg rounded-lg" alt="He Who Is"/>
+                    <img src={he} className="w-full h-auto shadow-lg rounded-lg" alt="He Who Is"/>
                     <h2 className="mt-4 bg-[#e2e1bf] text-black px-8 py-2 rounded-full shadow-sm text-xl">
                         "He Who Is" - $30
                     </h2>
                 </div>
 
                 <div className="flex flex-col items-center">
-                    <img src="src/paintings/stream.png" className="w-full h-auto shadow-lg rounded-lg" alt="Drawn to the Stream" />
+                    <img src={stream} className="w-full h-auto shadow-lg rounded-lg" alt="Drawn to the Stream" />
                     <h2 className="mt-4 bg-[#e2e1bf] text-black px-8 py-2 rounded-full shadow-sm text-xl">
                         "Drawn to the Stream" - $70
                     </h2>
                 </div>
 
                 <div className="flex flex-col items-center">
-                    <img src="src/paintings/p1.png" className="w-full h-auto shadow-lg rounded-lg" alt="He Who Is"/>
+                    <img src={p1} className="w-full h-auto shadow-lg rounded-lg" alt="He Who Is"/>
                 </div>
 
                 <div className="flex flex-col items-center">
-                    <img src="src/paintings/p2.png" className="w-full h-auto shadow-lg rounded-lg" alt="He Who Is"/>
+                    <img src={p2} className="w-full h-auto shadow-lg rounded-lg" alt="He Who Is"/>
                 </div>
             </div>
 
@@ -51,7 +56,7 @@ export default function Pieces() {
                     </div>
 
                     <img
-                        src="src/paintings/soundtrack.png"
+                        src={soundtrack}
                         className="w-full h-auto rounded-md shadow-2xl border-8 border-white/5"
                         alt="Soundtrack of Her Soul"
                     />
